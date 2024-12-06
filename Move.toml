@@ -1,0 +1,15 @@
+    [package]
+    name = "EmployeePayroll"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0xcf15bf88ca41e989bcf8f5c679e9e7dba079aee6e958787444e77e84d2e4efa0'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
